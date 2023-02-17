@@ -26,7 +26,7 @@ If you use the code from this repository, please cite:
 all of the opinion tuples *O* = *O*<sub>i</sub>,...,*O*<sub>n</sub> in a text. Each opinion *O*<sub>i</sub> is a tuple
 *(h, t, e, p)* where *h* is a **holder** who expresses a **polarity** *p* towards a **target** *t* through a 
 **sentiment expression** *e*, implicitly defining pairwise relationships between elements of the same tuple
-[(Barnes et al., 2021)](https://aclanthology.org/2021.acl-long.263/). An example of such tuples as a structure sentiment graph is Figure 1. 
+[(Barnes et al., 2021)](https://aclanthology.org/2021.acl-long.263/). An example of such tuples as a structure sentiment graph is shown in Figure 1. 
 
 ![SSA_example](./figures/SSA_example.png)
 
@@ -85,4 +85,4 @@ to place 11th and 9th out of 32 teams in these subtasks.
 | **NoReC<sub>fine</sub>** | 45.9 | - |
 | **Average score** | **54.5** | **53.1** |
 
-Table 2: Official competition results of proposed solution.
+Table 2: Official competition results of the proposed solution.
