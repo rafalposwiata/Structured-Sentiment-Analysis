@@ -28,10 +28,9 @@ all of the opinion tuples *O* = *O*<sub>i</sub>,...,*O*<sub>n</sub> in a text. E
 **sentiment expression** *e*, implicitly defining pairwise relationships between elements of the same tuple
 [(Barnes et al., 2021)](https://aclanthology.org/2021.acl-long.263/). An example of such tuples as a structure sentiment graph is Figure 1. 
 
-<p style="text-align: center">
-  <img alt="SSA_example" src="./figures/SSA_example.png"/>
-</p>
-<div style="text-align: center">Figure 1: SSA example as a structure sentiment graph.</div>
+![SSA_example](./figures/SSA_example.png)
+
+Figure 1: SSA example as a structure sentiment graph.
 
 ## Subtasks
 
@@ -49,6 +48,7 @@ structured sentiment datasets in five languages selected for the competition are
 | [MultiBooked<sub>ca</sub>](https://aclanthology.org/L18-1104/) | Catalan | Hotel reviews | 1678 |235 |2336 |2756 |
 | [MultiBooked<sub>eu</sub>](https://aclanthology.org/L18-1104/) | Basque | Hotel reviews | 1521 |296 |1775 |2328 |
 | [NoReC<sub>fine</sub>](https://aclanthology.org/2020.lrec-1.618/) | Norwegian | Multi-domain reviews | 11437 | 1128|8923 |11115 |
+
 Table 1: Datasets used during competition.
 
 ### Cross-lingual
@@ -63,10 +63,9 @@ Relation Classification Module. The first module is based on sequence tagging an
 and expressions with polarity. Having already extracted entities, the role of the second module is to classify whether 
 there is a relationship between them.
 
-<p style="text-align: center">
-  <img alt="solution" src="./figures/solution.png"/>
-</p>
-<div style="text-align: center">Figure 2: Architecture of the proposed solution.</div>
+![solution](./figures/solution.png)
+
+Figure 2: Architecture of the proposed solution.
 
 ## Results
 
@@ -85,4 +84,5 @@ to place 11th and 9th out of 32 teams in these subtasks.
 | **MultiBooked<sub>eu</sub>** | 65.3 | 44.4 |
 | **NoReC<sub>fine</sub>** | 45.9 | - |
 | **Average score** | **54.5** | **53.1** |
+
 Table 2: Official competition results of proposed solution.
