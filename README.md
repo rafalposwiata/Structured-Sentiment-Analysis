@@ -5,7 +5,7 @@ described in the paper:
 
 If you use the code from this repository, please cite:
 
-```
+```bib
 @inproceedings{poswiata-2022-opi,
     title = "{OPI} at {S}em{E}val-2022 Task 10: Transformer-based Sequence Tagging with Relation Classification for Structured Sentiment Analysis",
     author = "Po{\'s}wiata, Rafa{\l}",
